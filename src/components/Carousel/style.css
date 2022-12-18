@@ -1,0 +1,11 @@
+div.carousel-div {
+    height: 50vh;
+}
+div.carousel-div img{
+    height: 70vh;
+    object-fit: cover;
+    filter: brightness(.3);
+}
+div.carousel-div img.top{
+    object-position: top;
+}

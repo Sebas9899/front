@@ -1,0 +1,65 @@
+div.profile{
+    align-items: center;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-left: 10px;
+    padding: 0px 10px;
+}
+div.profile:hover{
+    box-shadow: 0px 0px 9px 0px #6cbaff;
+    transition: .3s;
+}
+div.profile img{
+    border-radius: 50px;
+    width: 50px;
+}
+div.profile p{
+    background: white;
+    border-radius: 6px;
+    color: #263238;
+    padding: 0px 10px;
+    margin: 0;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+a{
+    margin-top: 3px;
+}
+
+div.menu-profile{
+    background-color: #213d67;
+    color: white;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 70px;
+    right: 60px;
+    z-index: 1000;
+}
+div.menu-profile li{
+    cursor: pointer;
+    list-style: none;
+    padding: 7px 20px;
+}
+div.menu-profile li:hover{
+    background: #667d9d;
+    transition: .4s;
+}
+div.menu-profile li:nth-child(1) {
+    border-radius: 6px 6px 0px 0px;
+}
+div.menu-profile li:nth-child(3) {
+    border-radius: 0px 0px 6px 6px;
+}
+div.menu-profile li:nth-child(3):hover{
+    background: #ff3636;
+    color: white;
+    transition: .4s;
+}
