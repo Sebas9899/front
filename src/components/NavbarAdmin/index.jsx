@@ -21,7 +21,7 @@ const NavbarAdminLY = () => {
 
     return (
         <>
-            <Navbar bg="dark" variant="dark" fixed='top'>
+            <Navbar bg="dark" variant="dark">
                 <Container>
                     <Navbar.Brand href="#home">Dulcería | ADMIN</Navbar.Brand>
                     <Nav className="ms-auto">
